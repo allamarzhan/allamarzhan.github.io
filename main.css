@@ -76,6 +76,10 @@ a:hover {
   color: #FF4500;
 }
 
+.gallery-menu ul {
+  padding: 0px;
+}
+
 .content {
   display: none;
   margin-top: 0;
