@@ -1,0 +1,196 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: url(img/back.jpg);
+  background-size: cover;
+}
+
+.header {
+  display: block;
+  height: auto;
+  min-height: 60px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  font-family: 'Merienda', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+    color: #7FFFD4;
+}
+
+.thisA {
+  color: yellow;
+}
+
+.header ul {
+  padding: 15px;
+  margin: 0;
+}
+
+.header li {
+  display: inline;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.header li:hover {
+  color: #7FFFD4;
+}
+
+.gallery-menu {
+  display: none;
+  background: #FFE4B5;
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.gallery-menu li {
+    display: inline;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Merienda', cursive;
+    padding: 10px;
+}
+
+.gallery-menu li a {
+  color: black;
+}
+
+.gallery-menu li a:hover {
+  color: #FF4500;
+}
+
+.content {
+  display: none;
+  margin-top: 0;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 70%;
+  height: 1000px auto;
+  font-family: 'Arapey', serif;
+  transition: 1s;
+}
+
+.content .content-title {
+  font-family: 'Arapey', serif;
+  font-size: 50px;
+}
+
+.avatar {
+  width: 400px;
+  margin: 0px;
+}
+
+.creed1 {
+  color: blue;
+}
+
+.creed2 {
+  color: green;
+}
+
+.content table {
+  border: 1px solid black;
+  font-size: 20px;
+  font-family: 'Arapey', serif;
+}
+
+.content table td{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: justify;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  padding-top: 5px;
+  font-family: 'Merienda', cursive;
+}
+
+.footer span {
+  font-size: 10px;
+  font-family: serif;
+}
+
+.parents-gallery img {
+  padding: 5px;
+}
+
+.children-gallery img {
+  padding: 5px;
+}
+
+.education-gallery img{
+  padding: 5px;
+  width: 70%;
+}
+
+.up {
+  background: url(img/up.png);
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  top: 85%;
+  right: 5%;
+  position: fixed;
+  opacity: 0.8;
+  display: none;
+}
+
+.gallery {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slider-div {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  min-height: 460px;
+  height: auto;
+}
+
+.slider-photo{
+  width: 0;
+  height: 450px;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  transition: 1s;
+}
+
+.btns img{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.showed {
+  opacity: 1;
+  width: 97.5%;
+}
+
+.content-index {
+  display: block;
+}
