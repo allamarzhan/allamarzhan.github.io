@@ -41,7 +41,7 @@ a:hover {
 .header li {
   display: inline;
   cursor: pointer;
-  padding: 10px;
+  padding: 11px;
   transition: 0.5s;
 }
 
